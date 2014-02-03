@@ -1,9 +1,9 @@
 var fs = require('fs');
-//var webpage = fs.readFileSync("index.html", "utf-8");
+var webpage = fs.readFileSync("index.html", "utf-8");
 
 
-var buffer = fs.readFileSync("index.html");
-var webpage = buffer.toString();
+//var buffer = fs.readFileSync("index.html");
+//var webpage = buffer.toString();
 
 
 var express = require('express');
